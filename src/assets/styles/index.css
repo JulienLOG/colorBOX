@@ -1,5 +1,27 @@
-.TEST_CSS {
-  color: red;
+*, *::before, *::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  outline: 0px solid transparent;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: #fafafa;
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0a0a0a;
 }
 
 /*# sourceMappingURL=index.css.map */
