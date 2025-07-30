@@ -1,4 +1,10 @@
 .navHeaderLayout {
-    height              : 60px;
-    background-color    : blue;
+    width               : 100%;
+    display             : flex;
+    justify-content     : center;
+    
+    & ul {
+        display         : flex;
+        gap             : clamp(2rem, 10vw, 4rem);
+    };
 };

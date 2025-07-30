@@ -1,0 +1,11 @@
+@use '../utils/utils_colors.scss' as colors;
+@use '../fonts/fonts_weight.scss' as fonts_weight;
+
+.linkItem {
+    cursor              : pointer;
+
+    & a {
+        color           : colors.$mono-950;
+        font-weight     : fonts_weight.$weight-2xl;
+    };
+};
