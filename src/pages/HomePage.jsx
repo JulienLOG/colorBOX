@@ -4,9 +4,7 @@ import HeaderLayout from "../layouts/HeaderLayout.jsx";
 export default function HomePage() {
     return (
         <div className={styles.homePage}>
-            <HeaderLayout>
-
-            </HeaderLayout>
+            <HeaderLayout></HeaderLayout>
         </div>
     );
 };  

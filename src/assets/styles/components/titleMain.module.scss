@@ -4,7 +4,10 @@
 
 .titleMain {
     display             : flex;
+    justify-content     : space-between;
     align-items         : baseline;
+    width               : 245px;
+    height              : 4rem;
 
     & h1 {
         margin-right    : 0.5rem;
@@ -15,5 +18,6 @@
     & p {
         font-size       : fonts_size.$font-base;
         font-weight     : fonts_weight.$weight-2xl;
+        text-wrap       : nowrap;
     }
 }
