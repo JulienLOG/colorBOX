@@ -1,0 +1,27 @@
+.colorCube {
+  position              : relative;
+  width                 : 200px;
+  height                : 200px;
+  transform-style       : preserve-3d;
+  transform             : rotateX(30deg) rotateY(45deg);
+  margin                : 100px auto;
+};
+
+.face {
+  position              : absolute;
+  display               : flex;
+  justify-content       : center;
+  align-items           : center;
+  width                 : 200px;
+  height                : 200px;
+  color                 : white;
+  opacity               : 0.95;
+  border                : 1px solid rgba(0, 0, 0, 0.5);
+};
+
+.faceFRONT      { background: red;      transform: translateZ(100px); };
+.faceBACK       { background: blue;     transform: rotateY(180deg) translateZ(100px); };
+.faceRIGHT      { background: green;    transform: rotateY(90deg)  translateZ(100px); };
+.faceLEFT       { background: orange;   transform: rotateY(-90deg) translateZ(100px); };
+.faceTOP        { background: purple;   transform: rotateX(90deg)  translateZ(100px); };
+.faceBOTTOM     { background: brown;    transform: rotateX(-90deg) translateZ(100px); };
