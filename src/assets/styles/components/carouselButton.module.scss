@@ -1,0 +1,22 @@
+@use "../utils/utils_colors.scss" as colors;
+
+.carouselButton {
+    display                             : flex;
+
+    button {
+        width                           : 1rem;
+        height                          : 1rem;
+        border-top-right-radius         : 0.5rem;
+        border-bottom-left-radius       : 0.5rem;
+        border-top                      : 4px solid colors.$mono-950;
+        border-right                    : 4px solid colors.$mono-950;
+        transform                       : rotateZ(45deg);
+    }
+
+    & > div {
+        width                           : 1rem;
+        height                          : 1rem;
+        border-radius                   : 0.5rem;
+        background-color                : colors.$mono-950;
+    }
+}
