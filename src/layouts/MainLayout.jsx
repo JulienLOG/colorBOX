@@ -1,14 +1,16 @@
 import styles from "../assets/styles/layouts/mainLayout.module.scss";
+import NavCarousel from "./NavCarousel.jsx";
+import BackgroundSceneLayout from "./BackgroundSceneLayout.jsx";
 import ForegroundSceneLayout from "./ForegroundSceneLayout.jsx";
 import ColorCube from "../components/ColorCube.jsx";
-import NavCarousel from "./NavCarousel.jsx";
 
 export default function MainLayout() {
 
     return (
         <main className={ styles.mainLayout }>
-            <NavCarousel />
+            <BackgroundSceneLayout />
             <ForegroundSceneLayout>
+                <NavCarousel />
                 <ColorCube />
             </ForegroundSceneLayout>
         </main>

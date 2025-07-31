@@ -1,9 +1,9 @@
-.foregroundSceneLayout {
-    z-index             : 2222; // level two
+.backgroundSceneLayout {
+    z-index             : 1111; // level one
     position            : absolute;
     inset               : 0px;
     display             : flex;
-    flex                : 1; 
-    background-color    : red;
+    flex                : 1;
+    background-color    : blue;
     perspective         : 800px;
 };
